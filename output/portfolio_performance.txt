@@ -1,0 +1,5 @@
+mean_daily_return: 0.002190772824171634
+std_daily_return: 0.011663691575844752
+annualized_sharpe: 2.9816838180807155
+avg_long_positions: 8.095238095238095
+avg_short_positions: 7.063492063492063

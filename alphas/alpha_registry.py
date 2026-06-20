@@ -1,0 +1,73 @@
+from alphas.alpha_library import (
+    alpha_2,
+    alpha_3,
+    alpha_6,
+    alpha_12,
+    alpha_19,
+    alpha_25,
+    alpha_27,
+    alpha_30,
+    alpha_36,
+    alpha_42,
+    alpha_48,
+    alpha_53,
+    alpha_55,
+    alpha_60,
+    alpha_61,
+    alpha_62,
+    alpha_63,
+    alpha_64,
+    alpha_65,
+    alpha_66,
+    alpha_67,
+    alpha_68,
+    alpha_69,
+    alpha_70,
+    alpha_71,
+    alpha_72,
+    alpha_73,
+    alpha_74,
+    alpha_75,
+    alpha_101,
+)
+
+ALPHA_REGISTRY = {
+    "alpha_2": alpha_2,
+    "alpha_3": alpha_3,
+    "alpha_6": alpha_6,
+    "alpha_12": alpha_12,
+    "alpha_19": alpha_19,
+    "alpha_25": alpha_25,
+    "alpha_27": alpha_27,
+    "alpha_30": alpha_30,
+    "alpha_36": alpha_36,
+    "alpha_42": alpha_42,
+    "alpha_48": alpha_48,
+    "alpha_53": alpha_53,
+    "alpha_55": alpha_55,
+    "alpha_60": alpha_60,
+    "alpha_61": alpha_61,
+    "alpha_62": alpha_62,
+    "alpha_63": alpha_63,
+    "alpha_64": alpha_64,
+    "alpha_65": alpha_65,
+    "alpha_66": alpha_66,
+    "alpha_67": alpha_67,
+    "alpha_68": alpha_68,
+    "alpha_69": alpha_69,
+    "alpha_70": alpha_70,
+    "alpha_71": alpha_71,
+    "alpha_72": alpha_72,
+    "alpha_73": alpha_73,
+    "alpha_74": alpha_74,
+    "alpha_75": alpha_75,
+    "alpha_101": alpha_101,
+}
+
+
+def get_alpha_names() -> list[str]:
+    return list(ALPHA_REGISTRY.keys())
+
+
+def get_alpha_count() -> int:
+    return len(ALPHA_REGISTRY)
